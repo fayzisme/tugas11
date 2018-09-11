@@ -1,0 +1,77 @@
+body {
+    color: white;
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -600px;
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        background: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content {
+        background-color: rgba(0, 0, 0, .6) !important;
+        margin-top: 50px;
+        border-radius: 20px;
+    }    
+}
+
+@media only screen and (max-width: 780px) {
+    body {
+        background: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content {
+        background-color: rgba(0, 0, 0, .6) !important;
+        margin-top: 50px;
+        border-radius: 20px;
+    }    
+}
+
+h1 {
+    color: orangered;
+    text-shadow: 2px 2px black;
+}
+
+.content {
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+h3 {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.list-group {
+    padding-bottom: 10px;
+}
+
+.list-group-item {
+    background-color: inherit;
+    color: grey;
+}
+
+
+.btn {
+    color: white;
+}
+
+.close {
+    color: orangered;
+}
+
+.done {
+    font-size: 14px;
+    border: 2px solid grey;
+    padding: 3px;
+    background-color: white;
+}
